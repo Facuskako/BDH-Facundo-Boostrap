@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5px;
+}
+/*Inicio header*/
+.fondo__index {
+    background-image: url(../Images/Imagenes-proyecto/PUBLICOOO.jpg);
+    background-size: cover;
+}
+
+.logo__navbar{
+    width: 86px;
+}
+
+.background__nav{
+    background-color: rgb(63, 143, 181);
+    
+}
+
+.titulo__nav{
+    font-size: 16px;
+    color:rgb(163, 213, 214);
+    
+}
+
+.titulo__nav:hover{
+    background-color: rgba(8, 91, 137, 50%);
+    transition: .4s;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+/*Inicio main index*/
+/*Seccion 1*/
+.contenedor__seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen__principal {
+    width: 50%;
+}
+
+@font-face {
+    font-family: Whole;
+    src: url(../Font/Whole\ trains.ttf);
+}
+
+.eslogan__principal {
+    color: rgb(163, 213, 214);
+    font-size: 50px;
+    font-family: Whole;
+    background-color: rgba(0, 0, 0, 40%);
+}
+
+.contenedor__tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
+    background-color: rgba(0, 0, 0, 40%);
+}
+
+.img__seccion3{
+    width: 50%;
+    border: 3px solid rgb(63, 143, 181);
+    margin: 1rem 1rem;
+}
+
+.contenedor__textos{
+    background-color: rgb(163, 213, 214);
+}
