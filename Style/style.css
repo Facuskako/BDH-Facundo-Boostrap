@@ -34,15 +34,6 @@ html{
 }
 /*Inicio main index*/
 /*Seccion 1*/
-.contenedor__seccion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.imagen__principal {
-    width: 50%;
-}
 
 @font-face {
     font-family: Whole;
@@ -56,10 +47,11 @@ html{
     background-color: rgba(0, 0, 0, 40%);
 }
 
+.video__index{
+    height: 500px;
+    border: solid rgb(21, 193, 231) 3px ;
+}
 .contenedor__tarjeta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 3rem 5rem;
     background-color: rgba(0, 0, 0, 40%);
 }
@@ -71,5 +63,134 @@ html{
 }
 
 .contenedor__textos{
-    background-color: rgb(163, 213, 214);
+    background-color: rgba(163, 213, 214,40%);
+    text-align: center;
+    border-radius: 3px;
+    margin: 1rem 1rem;
+    font-size: 25px;
+
+}
+
+/*Footer*/
+.footer__contenedor {
+    background-color: rgb(63, 143, 181);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(163, 213, 214);
+}
+.logo__footer {
+    width: 128px;
+}
+
+.logos__redes {
+    color: rgb(8, 91, 137);
+    padding: 10px 20px;
+    font-size: 36px;
+}
+/*Animaciones Footer*/
+.fa-twitter:hover{
+    color: rgb(21, 193, 231);
+}
+.fa-facebook-f:hover{
+    color: rgb(18, 18, 211);
+}
+.fa-instagram:hover{
+    color: rgb(233, 124, 150);
+}
+.fa-youtube:hover{
+    color: red;
+}
+/*Ïnicio Info*/
+/*Main*/
+.gradiente__fondo {
+    background: rgb(21, 193, 231);
+    background-image: radial-gradient(circle, rgba(21, 193, 231, 1) 1%, rgba(1, 148, 246, 1) 45%, rgba(0, 255, 224, 1) 95%, rgba(44, 240, 226, 1) 97%, rgba(44, 240, 226, 1) 100%);
+}
+
+.titulos__encabezados {
+    font-family: Whole;
+    font-size: 80px;
+    color: rgb(8, 91, 137);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../Font/Roboto-Regular.ttf);
+}
+
+.img__logros{
+    width: 75%;
+    margin:20px 12.5%;
+    border-radius: 50%;
+}
+
+.tarjeta__info{
+    background-color: rgba(63, 143, 181, 40%);
+    font-family: Roboto;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:450px){
+    .eslogan__principal {
+        text-align: center;
+        font-size: 30px;
+    }
+    .video__principal {
+        width: 80%;
+    }
+    .footer__contenedor {
+        width: 100%;
+    }
+    .logos__redes{
+        font-size: 100%;
+    }
+    .contenedor__encabezados{
+        justify-content: center;
+    }
+    .titulos__encabezados{
+        font-size: 100%;
+    }
+    .img__logros{
+        border-radius: 0;
+    }
+    .logo__footer{
+        width: 64px;
+        
+    }
+}
+@media (min-width: 450px) and (max-width: 992px){
+    .eslogan__principal {
+        text-align: center;
+        font-size: 30px;
+    }
+    .video__principal {
+        width: 80%;
+    }
+    .footer__contenedor {
+        width: 100%;
+    }
+    .logos__redes{
+        font-size: 100%;
+    }
+    .titulos__encabezados{
+        font-size: 2rem;
+    }
+    .img__logros{
+        border-radius: 0;
+    }
+    .logo__footer{
+        width: 100px;
+    }
 }
