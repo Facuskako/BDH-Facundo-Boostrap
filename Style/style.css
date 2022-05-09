@@ -160,7 +160,7 @@ html{
     text-align: center;
     font-size: 50px;
     background-color: rgba(63, 143, 181, 60%);
-    color: rgba(163, 213, 214, 40%);
+    color: rgba(0, 0, 0, 40%);
 }
 .parrafo__comunidad {
     display: flex;
@@ -168,10 +168,10 @@ html{
     font-family: Roboto;
     font-size: 35px;
     background-color: rgba(163, 213, 214, 70%);
-    margin: 15px 0;
+    margin: 15px 0px;
 }
 .img__carrusel{
-    height: 600px;
+    height: 800px;
     width: 100%;
 }
 .card__nosotros{
@@ -259,8 +259,11 @@ html{
         text-align: center;
         font-size: 30px;
     }
-    .video__principal {
-        width: 80%;
+    .contenedor__textos{
+        font-size: 16px;
+    }
+    .img__seccion3{
+        display: none;
     }
     .footer__contenedor {
         width: 100%;
@@ -281,6 +284,19 @@ html{
         width: 64px;
         
     }
+    .img__carrusel{
+        height: 300px;
+    }
+    .parrafo__comunidad {
+        font-size: 16px;
+    }
+    .encabezado__nosotros {
+        font-size: 20px;
+    }
+    .video__index{
+        height: 250px;
+    }
+    
 }
 @media (min-width: 450px) and (max-width: 992px){
     .eslogan__principal {
@@ -304,5 +320,11 @@ html{
     }
     .logo__footer{
         width: 100px;
+    }
+    .img__carrusel{
+        height: 500px;
+    }
+    .video__index{
+        height: 400px;
     }
 }
