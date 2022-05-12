@@ -1,0 +1,35 @@
+/*INICIO HEADER*/
+header {
+    .background__nav {
+        background-color: nth($pcolores, 4);
+
+        div {
+            a {
+                .logo__navbar {
+                    width: 86px;
+                }
+            }
+        }
+    }
+}
+
+div {
+    ul {
+        li {
+            a {
+                .titulo__nav {
+                    font-size: 16px;
+                    color: nth($pcolores, 3);
+
+                    &:hover {
+                        background-color: rgba(8, 91, 137, 50%);
+                        transition: .4s;
+                        border-radius: 3px;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*FIN HEADER*/

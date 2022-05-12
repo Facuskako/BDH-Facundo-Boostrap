@@ -253,7 +253,7 @@ html{
 
 
 
-
+/*Media querys mobile*/
 @media screen and (max-width:450px){
     .eslogan__principal {
         text-align: center;
@@ -298,6 +298,7 @@ html{
     }
     
 }
+/*Media querys Tablet*/
 @media (min-width: 450px) and (max-width: 992px){
     .eslogan__principal {
         text-align: center;

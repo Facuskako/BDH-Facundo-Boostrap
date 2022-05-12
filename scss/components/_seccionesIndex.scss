@@ -1,0 +1,68 @@
+/*----SECCION 1----*/
+@font-face {
+    font-family: Whole;
+    src: url(../Font/Whole\ trains.ttf);
+}
+
+.eslogan__principal {
+    color: rgb(163, 213, 214);
+    font-size: 50px;
+    font-family: Whole;
+    background-color: rgba(0, 0, 0, 0.4);
+  
+    
+    @media screen and (max-width:450px){
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+/*----SECCION 2----*/
+section {
+    div {
+        div {
+            .video__index {
+                height: 500px;
+                border: solid rgb(21, 193, 231) 3px;
+            }
+        }
+    }
+}
+
+
+/*----SECCION 3----*/
+.contenedor__tarjeta {
+    margin: 3rem 5rem;
+    background-color: rgba(0, 0, 0, 40%);
+
+    .img__seccion3 {
+        width: 50%;
+        border: 3px solid nth($pcolores, 4);
+        margin: 1rem 1rem;
+
+
+        @media screen and (max-width:450px){
+            display: none;
+        }
+    }
+}
+
+.contenedor__textos{
+    background-color: rgba(163, 213, 214,40%);
+    text-align: center;
+    border-radius: 3px;
+    margin: 1rem 1rem;
+    font-size: 25px;
+    h5{
+        p{
+            p{
+                text-align: center;
+            }
+        }
+    }
+
+
+    @media screen and (max-width:450px){
+        font-size: 16px;
+    }
+}
