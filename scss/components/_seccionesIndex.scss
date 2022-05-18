@@ -6,13 +6,13 @@
 
 .eslogan__principal {
     color: rgb(163, 213, 214);
-    font-size: 50px;
+    @include fontS (50px);
     font-family: Whole;
     background-color: rgba(0, 0, 0, 0.4);
   
     
     @media screen and (max-width:450px){
-        text-align: center;
+        text-align: center;;
         font-size: 30px;
     }
 }
@@ -49,14 +49,14 @@ section {
 
 .contenedor__textos{
     background-color: rgba(163, 213, 214,40%);
-    text-align: center;
+    @extend %alingc;
     border-radius: 3px;
     margin: 1rem 1rem;
-    font-size: 25px;
+    @include fontS (25px);
     h5{
         p{
             p{
-                text-align: center;
+                @extend %alingc;
             }
         }
     }

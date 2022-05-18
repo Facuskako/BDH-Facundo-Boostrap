@@ -29,6 +29,19 @@ html {
   }
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(../Font/Roboto-Regular.ttf);
+}
+/*----EXTENDS----*/
+.seccion__contacto, span .parrafo__comunidad, .footer__contenedor {
+  display: flex;
+}
+
+.seccion__contacto .formulario__contacto .form__contenedor .form__titulo, .footer__contenedor, .contenedor__textos h5 p p, .contenedor__textos {
+  align-items: center;
+}
+
 /*INICIO HEADER*/
 header .background__nav {
   background-color: rgb(63, 143, 181);
@@ -91,13 +104,9 @@ section div div .video__index {
 
 .contenedor__textos {
   background-color: rgba(163, 213, 214, 0.4);
-  text-align: center;
   border-radius: 3px;
   margin: 1rem 1rem;
   font-size: 25px;
-}
-.contenedor__textos h5 p p {
-  text-align: center;
 }
 @media screen and (max-width: 450px) {
   .contenedor__textos {
@@ -110,9 +119,7 @@ section div div .video__index {
   background-color: rgb(63, 143, 181);
   height: 150px;
   width: 100%;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid rgb(163, 213, 214);
 }
 .footer__contenedor .logo__footer {
@@ -197,7 +204,7 @@ section div div .iframe__galeria {
 /*-- ENCABEZADOS --*/
 span .encabezado__nosotros {
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   justify-content: center;
   text-align: center;
   font-size: 50px;
@@ -223,7 +230,6 @@ div div .img__carrusel {
 
 /*-- PARRAFO --*/
 span .parrafo__comunidad {
-  display: flex;
   width: 100%;
   font-family: Roboto;
   font-size: 35px;
@@ -243,14 +249,13 @@ div div .card__nosotros {
   font-family: Roboto;
   font-size: 16px;
   border-radius: 3px;
-  border: 10px double rgba(18, 18, 211, 0.6);
+  border: 10px double rgba(18, 18, 211, 0.3);
 }
 
 /*----SECCIONES CONTACTO----*/
 .seccion__contacto {
   min-height: 100%;
   width: 100%;
-  display: flex;
   font-family: "Montserrat", sans-serif;
 }
 .seccion__contacto .formulario__contacto {
@@ -269,7 +274,6 @@ div div .card__nosotros {
   grid-auto-columns: 100%;
 }
 .seccion__contacto .formulario__contacto .form__contenedor .form__titulo {
-  text-align: center;
   font-size: 1.9rem;
   margin-bottom: 0.4em;
 }

@@ -2,13 +2,13 @@
 /*-- ENCABEZADOS --*/
 span {
     .encabezado__nosotros {
-        display: flex;
-        font-family: 'Roboto', sans-serif;
-        justify-content: center;
-        text-align: center;
-        font-size: 50px;
-        background-color: rgba(63, 143, 181, 60%);
-        color: rgba(0, 0, 0, 40%);
+        display: map-get($encabezadonosotros, display);
+        font-family: map-get($encabezadonosotros, familia-fuente);
+        justify-content: map-get($encabezadonosotros, j-content);
+        text-align: map-get($encabezadonosotros, text-align);
+        font-size: map-get($encabezadonosotros, tamaño-fuente);
+        background-color: map-get($encabezadonosotros, bg-color);
+        color: map-get($encabezadonosotros, texto-color);
 
         @media screen and (max-width:450px){
             font-size: 20px;
@@ -35,10 +35,10 @@ div {
 /*-- PARRAFO --*/
 span {
     .parrafo__comunidad {
-        display: flex;
+        @extend %flexd;
         width: 100%;
         font-family: Roboto;
-        font-size: 35px;
+        @include fontS (35px);
         background-color: rgba(163, 213, 214, 70%);
         margin: 15px 0px;
 
@@ -57,9 +57,9 @@ div {
             margin: 25px 15px;
             background-color: rgb(163, 213, 214);
             font-family: Roboto;
-            font-size: 16px;
+            @include fontS (16px);
             border-radius: 3px;
-            border: 10px double rgba(18, 18, 211,60%);
+            border: 10px double rgba(18, 18, 211,30%);
         }
     }
 }

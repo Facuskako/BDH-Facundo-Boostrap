@@ -18,7 +18,7 @@ div {
         li {
             a {
                 .titulo__nav {
-                    font-size: 16px;
+                    @include fontS (16px);
                     color: nth($pcolores, 3);
 
                     &:hover {
