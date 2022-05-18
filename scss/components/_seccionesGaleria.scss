@@ -1,0 +1,33 @@
+/*----SECCIONES GALERIA----*/
+
+/*--SECCION IMAGENES--*/
+section {
+    div {
+        div {
+            .img__margen {
+                margin: 10px 0;
+                border: double rgb(8, 91, 137) 3px;
+                background-color: rgba(0, 0, 0, 40%);
+
+                &:hover {
+                    transform: scale(0.9);
+                    transition: 1s;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+
+/*--SECCION VIDEOS--*/
+
+section {
+    div {
+        div {
+            .iframe__galeria {
+                margin: 15px 0;
+                background-color: rgba(0, 0, 0, 40%);
+            }
+        }
+    }
+}

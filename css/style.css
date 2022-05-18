@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,22 @@ html {
 .fondo__index {
   background-image: url(../Images/Imagenes-proyecto/PUBLICOOO.jpg);
   background-size: cover;
+}
+
+.gradiente__fondo {
+  background: rgb(21, 193, 231);
+  background-image: radial-gradient(circle, rgb(21, 193, 231) 1%, rgb(1, 148, 246) 45%, rgb(0, 255, 224) 95%, rgb(44, 240, 226) 97%, rgb(44, 240, 226) 100%);
+}
+
+.titulos__encabezados {
+  font-family: Whole;
+  font-size: 70px;
+  color: rgb(8, 91, 137);
+}
+@media screen and (max-width: 450px) {
+  .titulos__encabezados {
+    font-size: 100%;
+  }
 }
 
 /*INICIO HEADER*/
@@ -102,6 +119,11 @@ section div div .video__index {
   width: 128px;
 }
 @media screen and (max-width: 450px) {
+  .footer__contenedor .logo__footer {
+    width: 64px;
+  }
+}
+@media screen and (max-width: 450px) {
   .footer__contenedor {
     width: 100%;
   }
@@ -118,6 +140,7 @@ div .logos__redes {
   }
 }
 
+/*--EFECTOS EN LOGOS REDES--*/
 .fa-twitter:hover {
   color: rgb(21, 193, 231);
 }
@@ -132,6 +155,138 @@ div .logos__redes {
 
 .fa-youtube:hover {
   color: red;
+}
+
+/*---- SECCIONES INFO ----*/
+.img__logros {
+  width: 75%;
+  margin: 20px 12.5%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 450px) {
+  .img__logros {
+    border-radius: 0;
+  }
+}
+.img__logros img .tarjeta__info {
+  background-color: rgba(63, 143, 181, 0.4);
+  font-family: Roboto;
+  border-radius: 5px;
+}
+
+/*----SECCIONES GALERIA----*/
+/*--SECCION IMAGENES--*/
+section div div .img__margen {
+  margin: 10px 0;
+  border: double rgb(8, 91, 137) 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+section div div .img__margen:hover {
+  transform: scale(0.9);
+  transition: 1s;
+  z-index: 1;
+}
+
+/*--SECCION VIDEOS--*/
+section div div .iframe__galeria {
+  margin: 15px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*----SECCIONES NOSOTROS----*/
+/*-- ENCABEZADOS --*/
+span .encabezado__nosotros {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  background-color: rgba(63, 143, 181, 0.6);
+  color: rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 450px) {
+  span .encabezado__nosotros {
+    font-size: 20px;
+  }
+}
+
+/*-- CARRUSEL --*/
+div div .img__carrusel {
+  height: 800px;
+  width: 100%;
+}
+@media screen and (max-width: 450px) {
+  div div .img__carrusel {
+    height: 300px;
+  }
+}
+
+/*-- PARRAFO --*/
+span .parrafo__comunidad {
+  display: flex;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 35px;
+  background-color: rgba(163, 213, 214, 0.7);
+  margin: 15px 0px;
+}
+@media screen and (max-width: 450px) {
+  span .parrafo__comunidad {
+    font-size: 16px;
+  }
+}
+
+/*-- CARDS --*/
+div div .card__nosotros {
+  margin: 25px 15px;
+  background-color: rgb(163, 213, 214);
+  font-family: Roboto;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 10px double rgba(18, 18, 211, 0.6);
+}
+
+/*----SECCIONES CONTACTO----*/
+.seccion__contacto {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+.seccion__contacto .formulario__contacto {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  background-color: rgb(163, 213, 214);
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+.seccion__contacto .formulario__contacto .form__contenedor {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+.seccion__contacto .formulario__contacto .form__contenedor .form__titulo {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+}
+.seccion__contacto .formulario__contacto .form__contenedor .form__titulo .form__entrada {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid gainsboro;
+  border-radius: 0.2em;
+}
+
+.form__entrada--mensaje {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+/*---- SECCIONES INFO ----*/
+
+.img__logros {
+    width: 75%;
+    margin: 20px 12.5%;
+    border-radius: 50%;
+
+    @media screen and (max-width:450px){
+        border-radius: 0;
+    }
+
+    img {
+        .tarjeta__info {
+            background-color: rgba(63, 143, 181, 40%);
+            font-family: Roboto;
+            border-radius: 5px;
+        }
+    }
+}

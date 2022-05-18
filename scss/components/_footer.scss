@@ -11,6 +11,10 @@
     .logo__footer {
         width: 128px;
 
+        @media screen and (max-width:450px){
+            width: 64px;
+        }
+
     }
 
 
@@ -33,6 +37,7 @@ div {
     }
 }
 
+/*--EFECTOS EN LOGOS REDES--*/
 .fa-twitter{
     &:hover {
         color: rgb(21, 193, 231);

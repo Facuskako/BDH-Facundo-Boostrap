@@ -1,0 +1,65 @@
+/*----SECCIONES NOSOTROS----*/
+/*-- ENCABEZADOS --*/
+span {
+    .encabezado__nosotros {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        background-color: rgba(63, 143, 181, 60%);
+        color: rgba(0, 0, 0, 40%);
+
+        @media screen and (max-width:450px){
+            font-size: 20px;
+        }
+    }
+}
+
+/*-- CARRUSEL --*/
+
+div {
+    div {
+        .img__carrusel {
+            height: 800px;
+            width: 100%;
+
+
+            @media screen and (max-width:450px){
+                height: 300px;
+            }
+        }
+    }
+}
+
+/*-- PARRAFO --*/
+span {
+    .parrafo__comunidad {
+        display: flex;
+        width: 100%;
+        font-family: Roboto;
+        font-size: 35px;
+        background-color: rgba(163, 213, 214, 70%);
+        margin: 15px 0px;
+
+
+        @media screen and (max-width:450px){
+            font-size: 16px;
+        }
+    }
+}
+
+/*-- CARDS --*/
+
+div {
+    div {
+        .card__nosotros {
+            margin: 25px 15px;
+            background-color: rgb(163, 213, 214);
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 3px;
+            border: 10px double rgba(18, 18, 211,60%);
+        }
+    }
+}

@@ -1,0 +1,49 @@
+/*----SECCIONES CONTACTO----*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+.seccion__contacto {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+    .formulario__contacto {
+        font-family: 'Montserrat', sans-serif;
+        margin: auto;
+        background-color: rgb(163, 213, 214);
+        width: 90%;
+        max-width: 400px;
+        border-radius: 1em;
+        padding: 3.5em 1.5em;
+
+        .form__contenedor {
+            width: 100%;
+            display: grid;
+            gap: 1em;
+            grid-auto-columns: 100%;
+
+            .form__titulo {
+                text-align: center;
+                font-size: 1.9rem;
+                margin-bottom: .4em;
+
+                .form__entrada {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1rem;
+                    padding: .8em 1em;
+                    outline: none;
+                    border: none;
+                    border: 1px solid gainsboro;
+                    border-radius: 0.2em;
+                }
+            }
+        }
+    }
+}
+
+.form__entrada--mensaje {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
