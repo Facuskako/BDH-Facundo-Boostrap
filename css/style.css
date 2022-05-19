@@ -31,7 +31,8 @@ html {
 
 @font-face {
   font-family: Roboto;
-  src: url(../Font/Roboto-Regular.ttf);
+  src: url(../Font/Roboto-Regular.ttf) format("");
+  font-display: swap;
 }
 /*----EXTENDS----*/
 .seccion__contacto, span .parrafo__comunidad, .footer__contenedor {

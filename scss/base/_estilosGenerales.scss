@@ -29,5 +29,6 @@ html {
 
 @font-face {
     font-family: Roboto;
-    src: url(../Font/Roboto-Regular.ttf);
+    src: url(../Font/Roboto-Regular.ttf) format('');
+    font-display: swap;
 }
