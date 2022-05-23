@@ -34,13 +34,21 @@ html {
   src: url(../Font/Roboto-Regular.ttf) format("");
   font-display: swap;
 }
+.disclaimer {
+  display: none;
+}
+
 /*----EXTENDS----*/
-.seccion__contacto, span .parrafo__comunidad, .footer__contenedor {
+.seccion__contacto, div .centrado__cards, span .parrafo__comunidad, .footer__contenedor {
   display: flex;
 }
 
 .seccion__contacto .formulario__contacto .form__contenedor .form__titulo, .footer__contenedor, .contenedor__textos h5 p p, .contenedor__textos {
   align-items: center;
+}
+
+div .centrado__cards {
+  justify-content: center;
 }
 
 /*INICIO HEADER*/
@@ -244,7 +252,7 @@ span .parrafo__comunidad {
 }
 
 /*-- CARDS --*/
-div div .card__nosotros {
+div .centrado__cards .card__nosotros {
   margin: 25px 15px;
   background-color: rgb(163, 213, 214);
   font-family: Roboto;

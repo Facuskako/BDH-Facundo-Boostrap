@@ -52,7 +52,9 @@ span {
 /*-- CARDS --*/
 
 div {
-    div {
+    .centrado__cards {
+        @extend %flexd;
+        @extend %j-cent;
         .card__nosotros {
             margin: 25px 15px;
             background-color: rgb(163, 213, 214);
