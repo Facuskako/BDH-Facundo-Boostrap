@@ -19,11 +19,15 @@ html {
 
 .titulos__encabezados{
     font-family: Whole;
-    font-size: 70px;
+    font-size: 100px;
     color: rgb(8, 91, 137);
+    text-align: center;
 
     @media screen and (max-width:450px){
-        font-size: 100%;
+        font-size: 65px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 }
 

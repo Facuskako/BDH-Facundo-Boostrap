@@ -9,10 +9,11 @@
     @include fontS (50px);
     font-family: Whole;
     background-color: rgba(0, 0, 0, 0.4);
-  
-    
-    @media screen and (max-width:450px){
-        text-align: center;;
+
+
+    @media screen and (max-width:450px) {
+        text-align: center;
+        ;
         font-size: 30px;
     }
 }
@@ -24,6 +25,10 @@ section {
             .video__index {
                 height: 500px;
                 border: solid rgb(21, 193, 231) 3px;
+
+                @media screen and (max-width:450px) {
+                    height: 250px;
+                }
             }
         }
     }
@@ -35,34 +40,44 @@ section {
     margin: 3rem 5rem;
     background-color: rgba(0, 0, 0, 40%);
 
+
+
+    @media screen and (max-width:450px) {
+        margin: 0;
+    }
+
     .img__seccion3 {
         width: 50%;
         border: 3px solid nth($pcolores, 4);
         margin: 1rem 1rem;
 
 
-        @media screen and (max-width:450px){
+        @media screen and (max-width:450px) {
             display: none;
         }
     }
 }
 
-.contenedor__textos{
-    background-color: rgba(163, 213, 214,40%);
+.contenedor__textos {
+    background-color: rgba(163, 213, 214, 40%);
     @extend %alingc;
     border-radius: 3px;
     margin: 1rem 1rem;
     @include fontS (25px);
-    h5{
-        p{
-            p{
-                @extend %alingc;
+
+    .texto__index {
+        color: nth($pcolores, 5);
+        text-align: center;
+
+        .texto__index {
+            .texto__index {
+                text-align: center;
             }
         }
     }
 
 
-    @media screen and (max-width:450px){
+    @media screen and (max-width:450px) {
         font-size: 16px;
     }
 }

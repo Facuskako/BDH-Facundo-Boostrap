@@ -41,6 +41,7 @@ span {
         @include fontS (35px);
         background-color: rgba(163, 213, 214, 70%);
         margin: 15px 0px;
+        padding: 25px 25px;
 
 
         @media screen and (max-width:450px){

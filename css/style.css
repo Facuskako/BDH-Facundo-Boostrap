@@ -20,12 +20,16 @@ html {
 
 .titulos__encabezados {
   font-family: Whole;
-  font-size: 70px;
+  font-size: 100px;
   color: rgb(8, 91, 137);
+  text-align: center;
 }
 @media screen and (max-width: 450px) {
   .titulos__encabezados {
-    font-size: 100%;
+    font-size: 65px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -43,7 +47,7 @@ html {
   display: flex;
 }
 
-.seccion__contacto .formulario__contacto .form__contenedor .form__titulo, .footer__contenedor, .contenedor__textos h5 p p, .contenedor__textos {
+.seccion__contacto .formulario__contacto .form__contenedor .form__titulo, .footer__contenedor, .contenedor__textos {
   align-items: center;
 }
 
@@ -94,11 +98,21 @@ section div div .video__index {
   height: 500px;
   border: solid rgb(21, 193, 231) 3px;
 }
+@media screen and (max-width: 450px) {
+  section div div .video__index {
+    height: 250px;
+  }
+}
 
 /*----SECCION 3----*/
 .contenedor__tarjeta {
   margin: 3rem 5rem;
   background-color: rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 450px) {
+  .contenedor__tarjeta {
+    margin: 0;
+  }
 }
 .contenedor__tarjeta .img__seccion3 {
   width: 50%;
@@ -117,6 +131,13 @@ section div div .video__index {
   margin: 1rem 1rem;
   font-size: 25px;
 }
+.contenedor__textos .texto__index {
+  color: black;
+  text-align: center;
+}
+.contenedor__textos .texto__index .texto__index .texto__index {
+  text-align: center;
+}
 @media screen and (max-width: 450px) {
   .contenedor__textos {
     font-size: 16px;
@@ -126,7 +147,7 @@ section div div .video__index {
 /*----FOOTER----*/
 .footer__contenedor {
   background-color: rgb(63, 143, 181);
-  height: 150px;
+  height: 120px;
   width: 100%;
   justify-content: space-between;
   border-bottom: 1px solid rgb(163, 213, 214);
@@ -244,6 +265,7 @@ span .parrafo__comunidad {
   font-size: 35px;
   background-color: rgba(163, 213, 214, 0.7);
   margin: 15px 0px;
+  padding: 25px 25px;
 }
 @media screen and (max-width: 450px) {
   span .parrafo__comunidad {
