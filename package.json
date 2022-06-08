@@ -4,7 +4,8 @@
   "description": "<h1 align=\"center\">Hi 👋, I'm Facundo Skako</h1>\r <h3 align=\"center\">A student frontend developer from Argentina</h3>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "[my-framework] build --output public"
   },
   "repository": {
     "type": "git",
@@ -16,4 +17,5 @@
     "url": "https://github.com/Facuskako/BDH-Facundo-Boostrap/issues"
   },
   "homepage": "https://github.com/Facuskako/BDH-Facundo-Boostrap#readme"
+  
 }
